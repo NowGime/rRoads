@@ -1,6 +1,7 @@
 ﻿using Avalonia.Controls;
 using Microsoft.EntityFrameworkCore;
 using RussiasRoads.Classes;
+using RussiasRoads.Data;
 using System.Linq;
 
 namespace RussiasRoads.Views;
@@ -16,7 +17,8 @@ public partial class MainView : UserControl
 
     private void TreeView_SelectionChanged(object? sender, Avalonia.Controls.SelectionChangedEventArgs e)
     {
-
+        var selected = OrgTv.SelectedItem as Subdivision;
+      
     }
 
     private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
