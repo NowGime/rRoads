@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussiasRoads", "RussiasRoads\RussiasRoads.csproj", "{38FF67B8-D509-74D7-6739-12B74DA3E3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussiasRoads.Desktop", "RussiasRoads.Desktop\RussiasRoads.Desktop.csproj", "{F7D8274C-C560-35F3-69CE-767BEF674098}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38FF67B8-D509-74D7-6739-12B74DA3E3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FF67B8-D509-74D7-6739-12B74DA3E3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FF67B8-D509-74D7-6739-12B74DA3E3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FF67B8-D509-74D7-6739-12B74DA3E3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D8274C-C560-35F3-69CE-767BEF674098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D8274C-C560-35F3-69CE-767BEF674098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D8274C-C560-35F3-69CE-767BEF674098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D8274C-C560-35F3-69CE-767BEF674098}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46137500-E0CB-419A-8418-009DD691EAAE}
+	EndGlobalSection
+EndGlobal
